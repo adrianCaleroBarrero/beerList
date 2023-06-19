@@ -1,0 +1,20 @@
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &-title {
+        margin-top: 48px;
+        font-weight: 600;
+        font-size: 35.25px;
+        line-height: 38px;
+        align-self: center;
+    }
+    &-products {
+        display: grid;
+        grid-template-columns:repeat(auto-fill, 165px);
+        column-gap: 15px;
+        row-gap: 15px;
+        justify-content: center;
+    }
+}
